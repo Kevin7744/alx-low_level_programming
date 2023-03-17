@@ -3,9 +3,7 @@
 
 int main(void)
 {
-    char Mystring[] = "Programming is like building a multilingual puzzle";
-
-    puts(Mystring);
+    puts("\"Programming is like building a multilingual puzzle");
     
     return 0;
 }
