@@ -1,5 +1,9 @@
 #include <stdio.h>
-
+/**
+ * main  - Entry point
+ *
+ *Return : Alwasys 0 (Success)
+ */
 int main (void)
 {
     char a;
@@ -14,4 +18,4 @@ int main (void)
     printf("size of long long int: %lu byte(s)\n", sizeof(d));
     printf("size of float: %lu byte(s)\n", sizeof(f));
     return 0;
-    
+}
