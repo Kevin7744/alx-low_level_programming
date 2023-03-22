@@ -1,5 +1,3 @@
-#include <stdio.h>
-#include <unistd.h>
 #include <main.h>
 /**
  * main - check the code
