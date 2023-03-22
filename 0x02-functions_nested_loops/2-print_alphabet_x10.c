@@ -1,18 +1,27 @@
 #include "main.h"
 /**
- * main - check the code
- * 
- * Return: Always 0.
-*/
-int main(void) 
-{
-    char c[] = "abcdefghijklmnopqrstuvwxyz";
-    int i = 0;
+ * print_alphabet_x10 - prints 10 times the alphabet, in lowercase,
+ * followed by a new line
+ */
+void print_alphabet_x10(void)
+	{
+		char ch;
+		int i;
 
-    for (i = 0; i < 10; i++)
-    {
-        _putchar(c[i]);
-    }
-    _putchar('\n');
-    return (0);
-}
+
+		i = 0;
+
+
+		while (i < 10)
+		{
+			ch = 'a';
+			while (ch <= 'z')
+			{
+				_putchar(ch);
+				ch++;
+			}
+			_putchar('\n');
+			i++;
+		}
+	}
+
