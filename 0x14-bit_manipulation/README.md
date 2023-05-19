@@ -1,0 +1,1 @@
+Bit manipulations with ^ | 
